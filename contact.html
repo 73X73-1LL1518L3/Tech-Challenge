@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Content goes here-->
+
+    <!-- Navigation Section-->
+    <header>
+      <div class="contener-logo-royal" id="contact">
+          <img class="logo-royal" href src="/Ressource/Colchis_emblem.png" alt="Emblème" height="110px">
+      </div>
+      <nav>
+          <ul>
+             <li><a class="bouton bouton-home" href="/index.html">Home</a></li>| 
+             <li><a class="bouton bouton-royal" href="/royal-family.html">Royal Family</a></li>|
+             <li><a class="bouton bouton-assets" href="/assets.html">Royal Assets</a></li> | 
+             <li><a class="bouton bouton-contact" href="/contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+
+      <a href="#contact"><img class="fleche" src="/Ressource/dessin fleche.svg"></a>
+    </header>
+    </header>
+
+    <!-- Add this to a seperate page, e.g. contact.html -->
+    <!-- Contact the Royal Kingdom -->
+    <section class="contener-contact">
+      <h2 class="contact">
+        Contact the Royal Kingdom
+      </h2>
+      <p class="text-contact">
+        Fill in the form below to contact the Royal Kingdom
+      </p>
+
+      <div class="container-form">
+        <form action="" method="get">
+
+          <!-- Ligne message 1 -->
+          <div class="ligne-message-un">
+            <div class="form-row form-nom">
+                <label for="full-name">Name</label>
+                <input type="text" name="full-name" id="full-name" placeholder="What's you name ?">
+            </div>
+            <div class="form-row form-email">
+                <label for="email"> E-mail</label>
+                <input type="email" name="email" id="email" placeholder="exemple@e-mail.com">
+            </div>
+          </div>
+
+          <!-- Ligne message 2 -->
+          <div class="ligne-message-deux">
+            <div class="form-row form-message">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="form-row form-envoyer">
+                <button>
+                    <img src="/Ressource/paper-plane.svg">
+                    Submit
+                </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- Connect the Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
